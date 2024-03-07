@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictac.css" />
+    <script src="tictac.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <section class="title">
+        <h1>Tic Tac Toe</h1>
+      </section>
+      <div class="gameOver">
+        <div class="last-mark">
+          <div>Game Over !</div>
+          <div class="who-win annoucer hide"></div>
+        </div>
+      </div>
+      <section class="display">
+        player &nbsp <span class="display-player playerX">X</span> `s turn
+      </section>
+
+      <section class="container" id="background">
+        <div class="tile cl0"></div>
+        <div class="tile cl1"></div>
+        <div class="tile cl2"></div>
+        <div class="tile cl3"></div>
+        <div class="tile cl4"></div>
+        <div class="tile cl5"></div>
+        <div class="tile cl6"></div>
+        <div class="tile cl7"></div>
+        <div class="tile cl8"></div>
+      </section>
+
+      <!-- <section class="display annoucer hide"></section> -->
+
+      <section class="controls">
+        <button id="reset">Reset</button>
+      </section>
+    </main>
+  </body>
+
+</html>
